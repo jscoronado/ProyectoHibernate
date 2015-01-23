@@ -7,6 +7,6 @@
     <property name="hibernate.connection.url">jdbc:mysql://localhost:3306/tablahibernate?zeroDateTimeBehavior=convertToNull</property>
     <property name="hibernate.connection.username">root</property>
     <property name="hibernate.connection.password">bitnami</property>
-    <mapping resource="com/mycompany/proyectohibernate/Nombres.hbm.xml"/>
+    <mapping resource="com/proyectohibernate/bean/Nombres.hbm.xml"/>
   </session-factory>
 </hibernate-configuration>

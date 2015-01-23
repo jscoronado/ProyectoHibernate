@@ -1,4 +1,4 @@
-package com.mycompany.proyectohibernate;
+package com.proyectohibernate.bean;
 // Generated 21-ene-2015 17:12:22 by Hibernate Tools 4.3.1
 
 
@@ -9,7 +9,7 @@ package com.mycompany.proyectohibernate;
 public class Nombres  implements java.io.Serializable {
 
 
-     private Integer id;
+     private Integer id = 0;
      private String nombre;
      private String apellido;
 
